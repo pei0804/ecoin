@@ -1,0 +1,16 @@
+version: '2'
+services:
+  app:
+    image: mercari/appengine-go:1.6
+    working_dir: /go/src/github.com/pei0804/ecoin
+    command: make serve-dev
+    ports:
+      - 8080:8080
+      - 8000:8000
+    volumes:
+      - .:/go/src/github.com/pei0804/ecoin
+  dep:
+    image: instrumentisto/dep:0.3.2
+    working_dir: /go/src/github.com/pei0804/ecoin
+    volumes:
+      - .:/go/src/github.com/pei0804/ecoin
