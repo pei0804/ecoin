@@ -18,3 +18,5 @@ Gopkg.lock
 # ETC
 .DS_Store
 
+# config
+env.yaml
