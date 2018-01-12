@@ -20,3 +20,32 @@
 #  name = "github.com/x/y"
 #  version = "2.4.0"
 
+ignored = ["github.com/pei0804/topicoin"]
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/ascarter/requestid"
+
+[[constraint]]
+  name = "github.com/go-chi/chi"
+  version = "3.3.2"
+
+[[constraint]]
+  name = "github.com/go-chi/cors"
+  version = "1.0.0"
+
+[[constraint]]
+  name = "github.com/google/uuid"
+  version = "0.2.0"
+
+[[constraint]]
+  name = "github.com/gorilla/csrf"
+  version = "1.5.0"
+
+[[constraint]]
+  name = "github.com/op/go-logging"
+  version = "1.0.0"
+
+[[constraint]]
+  name = "google.golang.org/appengine"
+  version = "1.0.0"

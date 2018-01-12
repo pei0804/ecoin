@@ -1,4 +1,4 @@
-application: ecoin
+application: topicoin
 version: 1
 runtime: go
 api_version: go1
@@ -9,3 +9,6 @@ handlers:
 
 env_variables:
   TZ: JST
+
+includes:
+- config/env.yaml
